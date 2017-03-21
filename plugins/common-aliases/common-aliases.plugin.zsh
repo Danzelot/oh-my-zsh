@@ -46,7 +46,7 @@ alias sortnr='sort -n -r'
 
 alias whereami=display_info
 
-alias rm='rm -i'
+alias rm='rm -I'
 alias cp='cp -i'
 alias mv='mv -i'
 
