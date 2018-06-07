@@ -14,3 +14,11 @@ alias vimlatex="vim -c 'set spell' -c 'set spelllang=en_gb'"
 alias vtodos='vim -O /home/jd/Labjournals/Jorn/todo.txt /home/jd/SpiderOak\ Hive/todo.txt'
 alias vtodo-work='vim /home/jd/Labjournals/Jorn/todo.txt'
 alias vtodo-other='vim /home/jd/SpiderOak\ Hive/todo.txt'
+
+alias fo='xdg-open'
+alias g-ls='~/.oh-my-zsh/custom/git-ls.sh'
+alias copasi='CopasiUI'
+
+alias mmv='noglob zmv -W'
+
+alias texclean='rm -If *.aux *.nav *.out *.bbl *.blg *.snm *.toc *.log *.bcf *.xml'
