@@ -193,7 +193,7 @@ prompt_dir() {
 # Condaenv: current working conda virtualenv
 prompt_condaenv() {
   local condaenv_path="$CONDA_DEFAULT_ENV"
-  if [[ -n $condaenv_path ]]; then
+  if [[ -n $condaenv_path && $condaenv_path != "base" ]]; then
     prompt_segment blue black "`basename $condaenv_path`"
   fi
 }
