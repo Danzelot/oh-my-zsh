@@ -17,8 +17,9 @@ alias vtodo-other='vim /home/jd/SpiderOak\ Hive/todo.txt'
 
 alias fo='xdg-open'
 alias g-ls='~/.oh-my-zsh/custom/git-ls.sh'
-alias copasi='CopasiUI'
+alias copasi='nohup CopasiUI > /dev/null 2>&1'
 
 alias mmv='noglob zmv -W'
+alias -g W='| wc -l'
 
 alias texclean='rm -If *.aux *.nav *.out *.bbl *.blg *.snm *.toc *.log *.bcf *.xml'
