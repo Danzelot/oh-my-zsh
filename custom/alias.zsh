@@ -18,6 +18,7 @@ alias vtodo-other='vim /home/jd/SpiderOak\ Hive/todo.txt'
 alias fo='xdg-open'
 alias git-ls='~/.oh-my-zsh/custom/git-ls.sh'
 alias git-split='~/.oh-my-zsh/custom/git-split.sh'
+alias git-diff-pdf='git difftool --tool=diffpdf'
 alias copasi='nohup CopasiUI > /dev/null 2>&1'
 alias rt-connect='sshuttle --remote=stallo.uit.no rt.uninett.no'
 
