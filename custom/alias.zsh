@@ -11,9 +11,9 @@ alias vi="vim"
 alias gvimlatex="gvim --servername latex -c 'set spell' -c 'set spelllang=en_gb'"
 alias vimlatex="vim -c 'set spell' -c 'set spelllang=en_gb'"
 
-alias vtodos='vim -O /home/jd/Labjournals/Jorn/todo.txt /home/jd/SpiderOak\ Hive/todo.txt'
+alias vtodos='vim -O /home/jd/Labjournals/Jorn/todo.txt /home/jd/Sync/todo.txt'
 alias vtodo-work='vim /home/jd/Labjournals/Jorn/todo.txt'
-alias vtodo-other='vim /home/jd/SpiderOak\ Hive/todo.txt'
+alias vtodo-other='vim /home/jd/Sync/todo.txt'
 
 alias fo='xdg-open'
 alias g-ls='~/.oh-my-zsh/custom/git-ls.sh'
@@ -23,3 +23,9 @@ alias mmv='noglob zmv -W'
 alias -g W='| wc -l'
 
 alias texclean='rm -If *.aux *.nav *.out *.bbl *.blg *.snm *.toc *.log *.bcf *.xml'
+
+alias vpn-ita='openconnect-sso --server vpn.uit.no/ita --user jdi010@uit.no'
+alias vpn-uit='openconnect-sso --server vpn.uit.no/fulltunell --user jdi010@uit.no'
+
+alias bat='batcat' 
+alias fd='fd-find'
